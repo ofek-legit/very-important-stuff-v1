@@ -1,9 +1,3 @@
-# Original code
-def save_user_data(user_data):
-    # Save user data to the database
-    database.save(user_data)
-
-# Malicious code
 def encrypt_data(data):
     # Basic encryption (for demonstration purposes, not secure in real-world scenarios)
     return ''.join(chr(ord(char) + 2) for char in data)
